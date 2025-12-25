@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+🎬 Movie Flix
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Movie Flix is a modern, cross-platform movie browsing mobile application built using React Native and Expo. It allows users to explore trending and latest movies, search for movies in real time, and view detailed information such as ratings, genres, budget, revenue, and production companies — all wrapped in a clean, dark-themed UI.
 
-## Get started
+📌 Overview
 
-1. Install dependencies
+Movie Flix provides an intuitive and visually engaging way to discover movies. The app fetches real-time data from a movie database API and presents it through a smooth, mobile-first interface. It is designed to be scalable, beginner-friendly, and production-ready.
 
-   ```bash
-   npm install
-   ```
+✨ Features:-
 
-2. Start the app
+🔍 Search movies by title
+🔥 View trending and latest movies
+🎞 Detailed movie information (overview, ratings, genres, budget, revenue)
+🌙 Modern dark UI with smooth navigation
+📱 Cross-platform support (Android & iOS)
+⚡ Fast and responsive performance
 
-   ```bash
-   npx expo start
-   ```
+📱 App Screens:-
 
-In the output, you'll find options to open the app in a
+💠Home screen with trending and latest movies
+💠Search screen with real-time results
+💠Movie details screen with full metadata
+💠Bottom tab navigation for easy access
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠 Tech Stack
+| Category              | Technology                     | Purpose                                             |
+| --------------------- | ------------------------------ | --------------------------------------------------- |
+| **Frontend**          | React Native                   | Builds the cross-platform mobile application        |
+| **Framework**         | Expo                           | Simplifies development, testing, and deployment     |
+| **Language**          | TypeScript                     | Ensures type safety and better code maintainability |
+| **Styling**           | NativeWind (Tailwind CSS)      | Utility-first styling for a modern dark UI          |
+| **Navigation**        | Expo Router / React Navigation | Manages screen transitions and tab navigation       |
+| **API**               | TMDB API                       | Fetches real-time movie data and metadata           |
+| **Networking**        | Fetch API / Axios              | Handles API requests                                |
+| **Icons**             | Expo Vector Icons              | Provides scalable UI icons                          |
+| **State Management**  | React Hooks                    | Manages component state and side effects            |
+| **Development Tools** | Node.js, npm                   | Dependency and project management                   |
+| **Testing**           | Expo Go                        | Runs the app instantly on real devices              |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
+📁 Project Structure
+Movie_Flix/
+├── app/
+├── assets/
+├── components/
+├── constants/
+├── services/
+├── types/
+├── .env
+├── package.json
+└── README.md
 
-```bash
-npm run reset-project
-```
+🎯 Learning Outcomes:
+📝Hands-on experience with React Native & Expo
+📝API integration and asynchronous data handling
+📝Mobile UI/UX design using utility-first styling
+📝Navigation and screen management
+📝Building real-world, scalable mobile apps
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+🗺️ Roadmap-->
 
-To learn more about developing your project with Expo, look at the following resources:
+✅ Completed:
+ Browse trending and latest movies
+ Real-time movie search
+ Movie details page (ratings, genres, overview)
+ Dark-themed UI with tab navigation
+ API integration for movie data
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🚧 In Progress
+ UI refinements and performance optimizations
+ 
+ 
+Planned features and improvements for upcoming releases of Movie Flix:
 
-## Join the community
+🔹 Version 1.1
+💾 Saved Collections
+Allow users to save movies into personalized collections such as Favorites and Watchlist.
 
-Join our community of developers creating universal apps.
+🔹 Version 1.2
+👤 Profile Menu
+Introduce a user profile section to manage saved movies, preferences, and basic app settings.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🔹 Future Enhancements:-
+🔐 User authentication
+☁️ Cloud sync for saved collections
+🎯 Personalized movie recommendations
+🌐 Multi-language support
+
+📜 License:
+This project is licensed under the MIT License.
+
+⭐ Acknowledgements:
+•Inspired by modern movie browsing apps
+•Powered by real-time movie data APIs
+•Built for learning, experimentation, and showcasing mobile development skills
+
+💜 If you like this project, don’t forget to star the repo!
