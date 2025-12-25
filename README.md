@@ -25,9 +25,9 @@ Movie Flix provides an intuitive and visually engaging way to discover movies. T
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Screenshots/home.jpg" width="250" />
-  <img src="Screenshots/search.jpg" width="250" />
-  <img src="Screenshots/saved.jpg" width="250" />
+  <img src="Screenshots/home.jpeg" width="250" />
+  <img src="Screenshots/search.jpeg" width="250" />
+  <img src="Screenshots/saved.jpeg" width="250" />
 </p>
 
 <p align="center">
