@@ -22,6 +22,19 @@ Movie Flix provides an intuitive and visually engaging way to discover movies. T
 💠Movie details screen with full metadata
 💠Bottom tab navigation for easy access
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Screenshots/home.jpg" width="250" />
+  <img src="Screenshots/search.jpg" width="250" />
+  <img src="Screenshots/saved.jpg" width="250" />
+</p>
+
+<p align="center">
+  Home Screen &nbsp;&nbsp;•&nbsp;&nbsp; Search Screen &nbsp;&nbsp;•&nbsp;&nbsp; Saved Movies
+</p>
+
+
 🛠 Tech Stack
 | Category              | Technology                     | Purpose                                             |
 | --------------------- | ------------------------------ | --------------------------------------------------- |
@@ -30,7 +43,7 @@ Movie Flix provides an intuitive and visually engaging way to discover movies. T
 | **Language**          | TypeScript                     | Ensures type safety and better code maintainability |
 | **Styling**           | NativeWind (Tailwind CSS)      | Utility-first styling for a modern dark UI          |
 | **Navigation**        | Expo Router / React Navigation | Manages screen transitions and tab navigation       |
-| **API**               | TMDB API                       | Fetches real-time movie data and metadata           |
+| **API**               | TMDb API                       | Fetches real-time movie data and metadata           |
 | **Networking**        | Fetch API / Axios              | Handles API requests                                |
 | **Icons**             | Expo Vector Icons              | Provides scalable UI icons                          |
 | **State Management**  | React Hooks                    | Manages component state and side effects            |
